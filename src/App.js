@@ -12,7 +12,7 @@ import Home from './components/Home';
 function App() {
   const [cart, setCart] = useState([]);
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/art-store-ReactJS'>
       <header className="navbar colorDedo">
       <Link to="/">Art Store</Link>
       <nav>
