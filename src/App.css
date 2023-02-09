@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.myDesc{
+    font-family: 'Montserrat', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Happy Monkey', cursive;
+    background-color: beige;
+    padding: 5px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a{
+    text-decoration: none;
+    color: rgb(1, 145, 145);
 }
 
-.App-link {
-  color: #61dafb;
+.nav_link{
+    list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav_link li{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.contactButton{
+    border: none;
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 3px 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.contactButton:hover{
+    background-color: rgb(225, 159, 72);
+    transition: background-color 0.8s;
+}
+
+
+.footer{
+    text-align: center;
+    margin: 30px;
+}
+
+.cImage{
+    width: 1000px;
+    height: 300px;
+}
+
+.colorDedo a{
+    padding: 8px;
+}
+
+.colorDedo a:hover{
+    position: relative;
+    bottom: 2px;
+    color: blueviolet;
+}
+
+.contactmee{
+    background-color: orange;
+    border-radius: 10px;   
+}
+
+span{
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    position: relative;
+    bottom: 10px;
+    padding: 1px;
+}
+
+.productClassImgNew{
+    width: 170px;
+    height: 200px;
+}
+
+.imageSection{
+    width: 200px;
+}
+
+.caro{
+    width: 70%;
 }

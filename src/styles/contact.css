@@ -1,0 +1,29 @@
+.contacto{
+    background-color: #81f9e7;
+    border-radius: 5px;
+    padding: 20px;
+}
+.outerDiv{
+    border: 1px solid gray;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+.inputLelo{
+    width: 100%;
+    border: none;
+    padding-inline-start: 10px;
+}
+
+.inputLelo:focus{
+    border: 1px solid #3dc9b3;
+    box-shadow:0 0 20px #b4fbf0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.myButton{
+    margin: 5px;
+}
